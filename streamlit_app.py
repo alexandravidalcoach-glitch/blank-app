@@ -407,7 +407,7 @@ const App = () => {
                 {/* NUEVO PANEL DE FILTROS DE FECHA */}
                 <div className="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100">
                   <label className="block text-[10px] font-black text-indigo-800 uppercase tracking-widest mb-2 italic flex items-center gap-2">
-                  st.markdown("### Filtrar Análisis por Periodo")
+                  
                     <span className="text-indigo-400 font-normal normal-case">(Opcional: Dejar vacío para ver todo el histórico)</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -463,7 +463,7 @@ const App = () => {
                     <span className="text-4xl font-black text-indigo-600">{formData.energiaMetabolica}</span>
                   </div>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-4 text-[10px] font-black uppercase tracking-tighter italic">
-                    <div className="bg-rose-50 text-rose-700 p-2 rounded-xl border border-rose-100">1–3 = Energía muy baja (agotado, niebla mental)</div>
+                   
                     <div className="bg-amber-50 text-amber-700 p-2 rounded-xl border border-amber-100">4–6 = Energía media (cansado pero funcional)</div>
                     <div className="bg-emerald-50 text-emerald-700 p-2 rounded-xl border border-emerald-100">7–8 = Buena energía (descansado, mente clara)</div>
                     <div className="bg-indigo-50 text-indigo-700 p-2 rounded-xl border border-indigo-100">9–10 = Energía muy alta (mucha activación, vigila la euforia)</div>
