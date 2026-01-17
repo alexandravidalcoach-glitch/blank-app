@@ -407,7 +407,7 @@ const App = () => {
                 {/* NUEVO PANEL DE FILTROS DE FECHA */}
                 <div className="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100">
                   <label className="block text-[10px] font-black text-indigo-800 uppercase tracking-widest mb-2 italic flex items-center gap-2">
-                    <span>📅 Filtrar Análisis por Periodo</span>
+                  st.markdown("### Filtrar Análisis por Periodo")
                     <span className="text-indigo-400 font-normal normal-case">(Opcional: Dejar vacío para ver todo el histórico)</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
